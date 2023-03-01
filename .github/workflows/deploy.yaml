@@ -2,7 +2,7 @@ name: Deploy k8s
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   SHA: $(git rev-parse HEAD)
